@@ -1,0 +1,108 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Yu Gothic Medium", sans-serif;
+  /*フォントの種類*/
+  line-height: 1.7;
+  /*行の高さ(行間））*/
+  color: #432;
+}
+
+h1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 80px;
+  font-size: 2rem
+}
+
+ul {
+  display: flex;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  list-style: none;
+  height: 40px;
+  align-items: center;
+}
+
+li {
+  margin-left: 80px;
+}
+
+.three {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 80px;
+}
+
+.items img {
+  max-width: 80%;
+}
+
+.items p {
+  max-width: 80%;
+  text-align: center;
+  color: black;
+}
+
+.all {
+  display: flex;
+  justify-content: space-around;
+}
+
+article {
+  width: 60%;
+  margin-left: 80px;
+}
+
+.wrapper .name {
+  margin: 40px 0px;
+}
+
+.wrapper img {
+  max-width: 80%;
+}
+
+.wrapper p {
+  padding: 5px 0px;
+}
+
+article p {
+  padding: 5px 0px;
+}
+
+aside {
+  text-align: center;
+  width: 27%;
+}
+
+.name, .rank, .day {
+  margin-right: 100px;
+}
+
+.name img {
+  max-width: 77%;
+  border-radius: 50%;
+}
+
+h3 {
+  padding: 20px 0px;
+}
+
+.name, .day, .rank p {
+  font-size: 0.9rem;
+}
+
+.rank img {
+  max-width: 100%;
+  text-align: center;
+}
+
+.day p {
+  border-top: black;
+  padding-top: 10px;
+}

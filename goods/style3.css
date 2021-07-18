@@ -1,0 +1,112 @@
+html{ font-size: 100%;}
+body{
+     font-family: "Yu Gothic Medium",sans-serif;/*フォントの種類*/
+     line-height: 1.7;/*行の高さ(行間））*/
+     color: #432;
+    }
+img{max-width: 100%;}
+header{display: flex;
+       justify-content: space-between;
+       height: 80px;
+       }
+.hello ul{display: flex;
+    
+    font-size: 1rem;
+}
+.hello li{margin-left: 15px;}
+header p{margin-top: 5px;
+    font-size: 1rem;}
+header p b{font-size: 1.5rem;}
+.point{display: flex;
+       justify-content: space-between;
+       align-items: center;
+    background-size: cover;
+    height: 50px;
+       background-color: #dddddd;}
+.point ul{display: flex;
+          font-size: 1rem;
+          list-style: none;}
+.point li{margin-left:10px ;}
+input[type="text"]{height: 30px;
+                    width: 200px;
+                    border:1px solid black;
+                    background-color: #ffffff;
+                    outline:none;}
+.wrapper {width: 80%;
+            margin: 0 auto;
+            padding: 3% 4%;}
+header h1{margin-top: 10px;
+    margin-left: 300px;
+   text-align: center;}
+.wrapper h1{padding-top: 15px;
+            text-align: center;
+            border-bottom: 1px solid #dddddd;}
+footer{height: 30px;
+      text-align: center;
+      background-color:#6e5064 ;
+      color: #ffffff;}
+h2{text-align: center;}
+      .flex{display: flex;
+      justify-content: space-between;
+      width: 100%;}
+.item{margin: 10px 30px;
+      width:120% ;}
+.grid{display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 30px;
+      }
+.item2{width: 100%;}
+.rankings {
+      justify-content: space-evenly;
+  }
+  .rankings-bottom {
+      justify-content: space-between;
+  }
+  .rankings img {
+      object-fit: contain;
+  }
+  .rankings-bottom img {
+      object-fit: contain;
+  }
+  .rankings-icon {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 20px auto;
+      font-weight: 600;
+      color: white;
+  }
+  .rankings-one {
+      background-color: orange;
+  }
+  .rankings-two {
+      background-color: gray;
+  }
+  .rankings-three{
+      background-color: brown ;
+  }
+  .rankings-other {
+      background-color:midnightblue;
+  }
+  .rankings .items {
+      width: 50%;
+      padding-left: 20px;
+  }
+  .rankings-bottom .items {
+      width: 30%;
+  }
+@media (max-width:600px) {
+      .flex,.grid{display: block;}
+      img{max-width: 100%;}
+      .item{margin: 0;}
+      
+      .hello ul{display:none;}
+      .nav li, header p{display:none;}
+      header h1 {margin-left: 0;}
+      .point ul{display: none;}
+      input[type="text"]{width: 100%;
+                         margin-left: 0;}
+}
+
